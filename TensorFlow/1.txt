@@ -1,9 +1,0 @@
-Nöron = girdi alır ağırlıkla çarpar toplar bias ekler aktivasyon fonksiyonundan geçirir ve çıktı üretir
-
-Aktivasyon Fonksiyonları 
-sigmoid fonk = 0,1 arasında değerler alabilir
-tanh(hiperbolik tanjant) = -1,1 arasında değerler alabilir
-ReLU(Rectified Linear Unit) = 0,sonsuz arasında değerler alabilir
-Linear = f(x)=x sonsuz değer alabilir 
-
-Regresyon = girdileri kullanarak sayi tahmin etme

@@ -1,0 +1,34 @@
+Nöron = girdi alır ağırlıkla çarpar toplar bias ekler aktivasyon fonksiyonundan geçirir ve çıktı üretir
+
+Aktivasyon Fonksiyonları 
+sigmoid fonk = 0,1 arasında değerler alabilir
+tanh(hiperbolik tanjant) = -1,1 arasında değerler alabilir
+ReLU(Rectified Linear Unit) = 0,sonsuz arasında değerler alabilir
+Linear = f(x)=x sonsuz değer alabilir 
+
+Regresyon = girdileri kullanarak sayi tahmin etme
+
+Maliyet fonksiyonu = gerçek veriden ne kadar uzaktayız ölçer
+
+Gradient Descent (Gradyan inişi) = modelin hata oranını minimize etmeye çalışırken kullandığımız optimizasyon algoritmalasıdır.
+
+ ↑
+ |\
+ | \
+ |  \
+ |   \
+ |    \      /
+ |     \    /
+ |      \__/
+ |        
+ +----------------→
+
+Noise(gürültü-parazit) = gerçek ilişkiyi temsil etmeyen veriler rastgele veya gereksiz veri karışımı
+
+Batch size(grup-parti boyutu) = weight güncellemesinde kullanılan veri sayısı
+1000 eğitim verisini batch size = 100 ile 10 batch veririz her batch sonrası weight güncellenir
+
+Epoch = tüm eğitim verisinin modelden kaç kez geçtiği
+1000 eğitim verisi 
+batch size = 100
+epoch = 10
